@@ -1,5 +1,5 @@
 # markdown的基本语法测试
-介绍markdown的基本语法。    
+介绍markdown的基本语法。
 如果使用Pycharm编辑器可以在 File->Settting->Plugins中搜索MarkDown support安装。
 >详情见[markdown guide](https://www.markdownguide.org/basic-syntax/)
 
@@ -15,21 +15,52 @@
 
 ## 标记重点
 ### 加粗
-使用四个星号将内容加粗的内容括起来，例如：
+使用四个星号将内容加粗的内容括起来。
+
+输入：
+~~~
 **Good**
+~~~
+输出：
+> **Good**
+
+
 ### 斜体字
-使用两个星号将需要进行斜体的内容括起来， 例如：   
+使用两个星号将需要进行斜体的内容括起来。
+输入：
+~~~
 *Good*
+~~~  
+输出:     
+
+*Good*
+
+
 ### 加粗并倾斜
-使用6个星号将需要加粗和倾斜的内容括起来，例如：    
+使用6个星号将需要加粗和倾斜的内容括起来。
+输入：
+~~~
+***Good***
+~~~
+输出：     
 ***Good***
 
 
+
 ## 块级引用
-使用'>'进行块引用，例如：  
+使用'>'进行块引用。     
+输入：
+~~~
 > sdfsadlsdfasdfsafasadfasdfasdfssdfasfasdfasdfasdfasd
 > 
 > asdfasdfasdf asdfasdfasdfasdf
+~~~ 
+输出：     
+> sdfsadlsdfasdfsafasadfasdfasdfssdfasfasdfasdfasdfasd
+> 
+> asdfasdfasdf asdfasdfasdfasdf
+
+
 ### 镶嵌的块引用
 块引用可以包含其他块引用，例如：
 >sdfasdfasldfasls
