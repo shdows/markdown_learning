@@ -54,23 +54,23 @@
 > asdfasdfasdf asdfasdfasdfasdf
 ``` 
 输出：     
-> sdfsadlsdfasdfsafasadfasdfasdfssdfasfasdfasdfasdfasd
-> 
-> asdfasdfasdf asdfasdfasdfasdf
+>> sdfsadlsdfasdfsafasadfasdfasdfssdfasfasdfasdfasdfasd
+>> 
+>> asdfasdfasdf asdfasdfasdfasdf
 
 
 ### 镶嵌的块引用
 块引用可以包含其他块引用。   
 输入：
 ```
->sdfasdfasldfasls
+> sdfasdfasldfasls
 >
 >> asfasdfasdfasdsdflsdfsf
 ```
 输出：
->sdfasdfasldfasls
->
->> asfasdfasdfasdsdflsdfsf
+>> sdfasdfasldfasls
+>>
+>>> asfasdfasdfasdsdflsdfsf
 
 
 ### 块应用可以包含其他的元素
